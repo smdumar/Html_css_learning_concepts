@@ -1,0 +1,24 @@
+N = float(input())
+Total_no_of_days = ""
+
+days = N / 86400
+days = int(days)
+if days > 0:
+    Total_no_of_days = Total_no_of_days + str(days) + " Days "
+    
+hours = (N - (days * 86400)) / 3600
+hours = int(hours)
+if hours > 0:
+    Total_no_of_days = Total_no_of_days + str(hours) + " Hours "
+    
+minutes = (N - (days * 86400) - (hours * 3600)) / 60
+minutes = int(minutes)
+if minutes > 0:
+    Total_no_of_days = Total_no_of_days + str(minutes) + " Minutes "
+    
+remaining_sec = N - (days * 86400) - (hours * 3600) - (minutes * 60)
+remaining_sec = int(remaining_sec)
+if remaining_sec > 0:
+    Total_no_of_days = Total_no_of_days +  str(remaining_sec) + " Seconds"
+    
+print(Total_no_of_days)    

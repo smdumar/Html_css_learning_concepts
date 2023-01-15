@@ -1,0 +1,22 @@
+h1{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;   
+
+}
+
+.heading{
+    color: blue;
+    font-weight: bold;
+
+}
+
+li{
+margin: 25px;
+
+}
+
+.line-through{
+    text-decoration: line-through;
+}

@@ -1,0 +1,77 @@
+/*top card*/
+
+.top-card-container{
+  background-color: #894bca;
+   width: 500px;
+   
+}
+
+.image{
+    height: 300px;
+    width:550px;
+   padding-left: 140px;
+   padding-bottom: 80px;
+   padding-top: 30px;
+}
+
+.top-head{
+    font-family:'Brush Script MT', cursive;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    width: 100px;
+    height: 10px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+/*bottom card container*/
+
+.background-card{
+    background-color:white;
+    border-top-left-radius:25px ;
+    border-top-right-radius:25px ;
+}
+
+.logo-image{
+    height: 80px;
+    width: 80px;
+    margin: 15px;
+    
+
+}
+
+.bottom-head{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color:#f780c3 ;
+    margin-left: 20px;
+   padding-top: 30px;
+}
+
+.shop-head{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: #323f4b;
+    padding-top: 10px;
+    
+}
+
+.shop-para{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    font-weight: lighter;
+    color:#7b8794;
+    width: 350px;
+
+}
+
+.shop-card-content{
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 2opx;
+    
+}

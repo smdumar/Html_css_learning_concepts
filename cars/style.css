@@ -1,0 +1,44 @@
+.car-bg-container{
+    background-image: url(https://img.freepik.com/free-vector/realistic-car-headlights-ad-composition-headlights-with-green-purple-illumination_1284-56577.jpg?w=1380&t=st=1668164821~exp=1668165421~hmac=d5d645e16815488476a3e4c78b05ecdeeeba15c63bc524b8b94c90aea5e9a2f0);
+    height: 120vh;
+    width: fit-content;
+    background-size: cover;
+}
+
+.car-heading{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:grey ;
+    font-size: xx-large;
+    padding-left: 15px;
+}
+
+.car-card-conatiner{
+    background-color: grey;
+    border-radius: 25px;
+    font-size: xx-small;
+    padding: 15px;
+    margin: 15px ;
+    width: 550px;
+    height: 210px;
+    
+}
+.car-card-margin{
+    margin-left: 10px;
+}
+.car-card-heading{
+    font-size: x-large;
+}
+.car-card-para{
+    font-size: large;
+    width: 300px;
+    padding-left:10px;
+    
+
+}
+.car-card-image{
+    width: 120px;
+    height: 120px;
+}
+
+
+
